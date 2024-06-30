@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [color, setColor] = useState("pink")
+  const [color, setColor] = useState("white");
 
   return (
     <><div className="container" style={{ backgroundColor: color }}>
